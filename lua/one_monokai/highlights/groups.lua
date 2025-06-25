@@ -599,11 +599,11 @@ local defaults = {
     MiniAnimateNormalFloat = { link = "NormalFloat" },
 
     MiniClueBorder = { link = "FloatBorder" },
-    MiniClueDescGroup = { link = "DiagnosticFloatingWarn" },
+    MiniClueDescGroup = { link = "DiagnosticWarn" },
     MiniClueDescSingle = { link = "NormalFloat" },
-    MiniClueNextKey = { link = "DiagnosticFloatingHint" },
-    MiniClueNextKeyWithPostkeys = { link = "DiagnosticFloatingError" },
-    MiniClueSeparator = { link = "DiagnosticFloatingInfo" },
+    MiniClueNextKey = { link = "DiagnosticHint" },
+    MiniClueNextKeyWithPostkeys = { link = "DiagnosticError" },
+    MiniClueSeparator = { link = "DiagnosticInfo" },
     MiniClueTitle = { bg = colors.vulcan, bold = true },
 
     MiniCompletionActiveParameter = { underline = true },
@@ -620,7 +620,7 @@ local defaults = {
     MiniDiffSignDelete = { fg = colors.red },
 
     MiniFilesBorder = { link = "FloatBorder" },
-    MiniFilesBorderModified = { link = "DiagnosticFloatingWarn" },
+    MiniFilesBorderModified = { link = "DiagnosticWarn" },
     MiniFilesCursorLine = { link = "CursorLine" },
     MiniFilesDirectory = { link = "Directory" },
     MiniFilesFile = { fg = colors.fg },
@@ -654,11 +654,11 @@ local defaults = {
     MiniOperatorsExchangeFrom = { link = "IncSearch" },
 
     MiniPickBorder = { link = "FloatBorder" },
-    MiniPickBorderBusy = { link = "DiagnosticFloatingWarn" },
+    MiniPickBorderBusy = { link = "DiagnosticWarn" },
     MiniPickBorderText = { bg = colors.vulcan },
     MiniPickIconDirectory = { link = "Directory" },
     MiniPickIconFile = { link = "NormalFloat" },
-    MiniPickHeader = { link = "DiagnosticFloatingHint" },
+    MiniPickHeader = { link = "DiagnosticHint" },
     MiniPickMatchCurrent = { link = "CursorLine" },
     MiniPickMatchMarked = { link = "Visual" },
     MiniPickMatchRanges = { fg = colors.green },
